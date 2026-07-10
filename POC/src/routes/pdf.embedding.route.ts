@@ -1,5 +1,5 @@
 import Router from "express";
-import { UploadFile } from "../utils/file.upload";
+import { UploadFile } from "../middlewares/file.upload";
 import { pdfEmbeddingService } from "../service/pdf.embeding.service";
 
 export const router = Router();
